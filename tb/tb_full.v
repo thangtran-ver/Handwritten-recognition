@@ -11,7 +11,7 @@
 //   vsim work.tb_batch +NUMTESTS=100      (mac dinh 10)
 //
 // Bien dich:
-//   vlog Sig_ROM.v relu.v Weight_memory.v neuron.v Layer_1.v Layer_2.v Layer_3.v Layer_4.v maxFinder.v tb_batch.v
+//   vlog rtl/Sig_ROM.v rtl/Weight_memory.v rtl/neuron.v rtl/Layer_1.v rtl/Layer_2.v rtl/Layer_3.v rtl/Layer_4.v rtl/maxFinder.v tb/tb_full.v
 //   vsim work.tb_batch +NUMTESTS=10
 //   run -all
 //////////////////////////////////////////////////////////////////////////////////
